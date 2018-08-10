@@ -25,5 +25,8 @@ $cfg['Servers'][$i]['compress']      = FALSE;
 $cfg['Servers'][$i]['auth_type']     = 'config';
 $cfg['Servers'][$i]['user']          = '__FILL_IN_DETAILS__';
 $cfg['Servers'][$i]['password']      = '__FILL_IN_DETAILS__';
+
+//Nodejs Permanently Run
+https://stackoverflow.com/questions/12701259/how-to-make-a-node-js-application-run-permanently
 ```
-node /est/test1.js > stdout.txt 2> stderr.txt &
+
