@@ -1,5 +1,5 @@
  // //let qryy='http://18.213.86.227:4000/courier/couriercompany'
-      // let qryy='https://maps.googleapis.com/maps/api/distancematrix/json?origins=9.919900,%2078.125770&destinations=9.923954,78.117355&mode=driving&language=en-EN&sensor=false&key=AIzaSyCZsnc36jrvx7sdu0iHfhAbtGGZXFOJ2nA'
+      // let qryy='https://maps.googleapis.com/maps/api/distancematrix/json?origins=9.919900,%2078.125770&destinations=9.923954,78.117355&mode=driving&language=en-EN&sensor=false&key=key'
       // Request.get(qryy,(err,res)=>{        
       //   let ret=JSON.parse(res.body)        
       //   console.log(ret)
