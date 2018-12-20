@@ -1,0 +1,23 @@
+ // //let qryy='http://18.213.86.227:4000/courier/couriercompany'
+      // let qryy='https://maps.googleapis.com/maps/api/distancematrix/json?origins=9.919900,%2078.125770&destinations=9.923954,78.117355&mode=driving&language=en-EN&sensor=false&key=AIzaSyCZsnc36jrvx7sdu0iHfhAbtGGZXFOJ2nA'
+      // Request.get(qryy,(err,res)=>{        
+      //   let ret=JSON.parse(res.body)        
+      //   console.log(ret)
+      //   //console.log(ret.rows[0].elements)
+      //   console.log(ret.rows[0].elements[0].distance)
+      //   console.log(ret.rows[0].elements[0].distance.value)
+        
+      //   // var people = Object.keys(ret);
+      //   // people.forEach(function(person) {
+      //   // var items = Object.keys(ret[person]);
+      //   // items.forEach(function(item) {
+      //   // var value = ret[person][item];
+      //   // console.log(person+': '+item+' = '+value);
+      //   // });
+      //   // });
+      //   // var tot = Object.keys(ret).length
+      //   // console.log('Tot='+tot)
+      //   // Object.keys(ret.rows).forEach(function(k){
+      //   //  console.log(k + ' - ' + ret[k]);
+      //   // });
+      // });
