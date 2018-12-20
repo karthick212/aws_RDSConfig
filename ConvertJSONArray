@@ -1,4 +1,30 @@
- // //let qryy='http://18.213.86.227:4000/courier/couriercompany'
+{
+   "destination_addresses" : [
+      "No. 45, Corporation Complex, Naicker New Street, Madurai, Tamil Nadu 625001, India"
+   ],
+   "origin_addresses" : [ "11A, 5th St, Lakshmipuram, Madurai, Tamil Nadu 625005, India" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "1.7 km",
+                  "value" : 1657
+               },
+               "duration" : {
+                  "text" : "8 mins",
+                  "value" : 488
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
+
+
+// //let qryy='http://18.213.86.227:4000/courier/couriercompany'
       // let qryy='https://maps.googleapis.com/maps/api/distancematrix/json?origins=9.919900,%2078.125770&destinations=9.923954,78.117355&mode=driving&language=en-EN&sensor=false&key=key'
       // Request.get(qryy,(err,res)=>{        
       //   let ret=JSON.parse(res.body)        
@@ -21,3 +47,4 @@
       //   //  console.log(k + ' - ' + ret[k]);
       //   // });
       // });
+  
