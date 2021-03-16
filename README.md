@@ -165,3 +165,17 @@ You could try running: rpm -Va --nofiles --nodigest
 
 instead of executing command sudo yum install -y mod_ssl
 replace mod_ssl with mod24_ssl and then run the command
+
+
+# rewrite rules in apache2 server (htaccess)
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+# Don't rewrite files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+#Rewrite everything else to index.html
+#to allow html5 state links
+RewriteRule ^ index.html [L]
+</IfModule>
