@@ -179,3 +179,6 @@ RewriteRule ^ - [L]
 #to allow html5 state links
 RewriteRule ^ index.html [L]
 </IfModule>
+
+for aws amazon linux nodejs isntallation
+https://stackoverflow.com/questions/27350634/how-to-yum-install-node-js-on-amazon-linux
